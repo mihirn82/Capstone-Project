@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/display">
+        <CheckBoxPreference
+            android:contentDescription="@string/mirror_content"
+            android:defaultValue="true"
+            android:key="pref_mirror"
+            android:summary="@string/mirror_content"
+            android:title="@string/mirror_title" />
+
+        <SeekBarPreference
+            android:defaultValue="24"
+            android:dialogMessage=""
+            android:key="pref_fontsize"
+            android:max="128"
+            android:summary="@string/font_summary"
+            android:text=""
+            android:title="@string/font_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/scrolling">
+        <CheckBoxPreference
+            android:contentDescription="@string/auto_title"
+            android:defaultValue="true"
+            android:key="pref_autostart"
+            android:summary="@string/auto_summary"
+            android:title="@string/auto_title" />
+        <SeekBarPreference
+            android:defaultValue="2"
+            android:dependency="pref_autostart"
+            android:dialogMessage=""
+            android:key="pref_startdelay"
+            android:max="10"
+            android:summary="@string/delay_summary"
+            android:text="@string/delay_text"
+            android:title="@string/delay" />
+        <CheckBoxPreference
+            android:contentDescription="@string/countdown_summary"
+            android:defaultValue="true"
+            android:dependency="pref_autostart"
+            android:key="pref_showCountdown"
+            android:summary="@string/countdown_summary"
+            android:title="@string/countdown" />
+        <SeekBarPreference
+            android:defaultValue="49"
+            android:dialogMessage=""
+            android:key="pref_speed"
+            android:max="100"
+            android:summary="@string/scroll_speed_summary"
+            android:text=""
+            android:title="@string/scroll_speed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_preview">
+        <Preference
+            android:key="pref_test"
+            android:summary="@string/test_summary"
+            android:title="@string/test" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

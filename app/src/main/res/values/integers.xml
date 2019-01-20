@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_scrollspeed">1</integer>
+    <integer name="min_fontsize">8</integer>
+    <integer name="min_scrollspeed">1</integer>
+</resources>
