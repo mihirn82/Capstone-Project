@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter;
+package com.gmail.mihirn82.myteleprompter;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -21,14 +21,13 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import static com.example.mihirnewalkar.myteleprompter.data.ScriptsContract.*;
+import static com.gmail.mihirn82.myteleprompter.data.ScriptsContract.*;
 
 public class EditorActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 

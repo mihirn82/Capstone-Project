@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter;
+package com.gmail.mihirn82.myteleprompter;
 
 import org.junit.Test;
 

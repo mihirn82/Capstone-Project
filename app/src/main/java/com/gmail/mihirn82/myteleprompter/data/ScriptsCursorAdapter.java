@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter.data;
+package com.gmail.mihirn82.myteleprompter.data;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,9 +9,9 @@ import android.widget.CursorAdapter;
 import android.widget.TextView;
 
 
-import com.example.mihirnewalkar.myteleprompter.R;
+import com.gmail.mihirn82.myteleprompter.R;
 
-import static com.example.mihirnewalkar.myteleprompter.data.ScriptsContract.*;
+import static com.gmail.mihirn82.myteleprompter.data.ScriptsContract.*;
 
 public class ScriptsCursorAdapter extends CursorAdapter {
 

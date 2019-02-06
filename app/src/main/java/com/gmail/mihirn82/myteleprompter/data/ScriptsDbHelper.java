@@ -1,10 +1,10 @@
-package com.example.mihirnewalkar.myteleprompter.data;
+package com.gmail.mihirn82.myteleprompter.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import static com.example.mihirnewalkar.myteleprompter.data.ScriptsContract.*;
+import static com.gmail.mihirn82.myteleprompter.data.ScriptsContract.*;
 
 public class ScriptsDbHelper extends SQLiteOpenHelper {
     // If you change the database schema, you must increment the database version.

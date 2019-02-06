@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter;
+package com.gmail.mihirn82.myteleprompter;
 
 import android.content.Context;
 import android.content.Intent;

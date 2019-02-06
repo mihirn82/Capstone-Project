@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter.data;
+package com.gmail.mihirn82.myteleprompter.data;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.util.Log;
 
-import static com.example.mihirnewalkar.myteleprompter.data.ScriptsContract.*;
+import static com.gmail.mihirn82.myteleprompter.data.ScriptsContract.*;
 
 public class ScriptsProvider extends ContentProvider {
 

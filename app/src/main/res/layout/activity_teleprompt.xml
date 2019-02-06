@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:scrollbars="none">
 
-        <com.example.mihirnewalkar.myteleprompter.MirroredTextView
+        <com.gmail.mihirn82.myteleprompter.MirroredTextView
             android:id="@+id/script_data_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

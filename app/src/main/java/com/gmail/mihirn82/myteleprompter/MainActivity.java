@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter;
+package com.gmail.mihirn82.myteleprompter;
 
 import android.content.ContentUris;
 import android.content.Intent;
@@ -19,11 +19,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.example.mihirnewalkar.myteleprompter.data.ScriptsCursorAdapter;
+import com.gmail.mihirn82.myteleprompter.data.ScriptsCursorAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
-import static com.example.mihirnewalkar.myteleprompter.data.ScriptsContract.*;
+import static com.gmail.mihirn82.myteleprompter.data.ScriptsContract.*;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 

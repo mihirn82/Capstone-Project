@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter.data;
+package com.gmail.mihirn82.myteleprompter.data;
 
 import android.content.ContentResolver;
 import android.net.Uri;
@@ -6,7 +6,7 @@ import android.provider.BaseColumns;
 
 public class ScriptsContract {
 
-    public static final String CONTENT_AUTHORITY = "com.example.mihirnewalkar.myteleprompter";
+    public static final String CONTENT_AUTHORITY = "com.gmail.mihirn82.myteleprompter";
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
     public static final String PATH_SCRIPTS = "scripts";
 

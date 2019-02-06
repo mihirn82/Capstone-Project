@@ -1,4 +1,4 @@
-package com.example.mihirnewalkar.myteleprompter;
+package com.gmail.mihirn82.myteleprompter;
 
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
